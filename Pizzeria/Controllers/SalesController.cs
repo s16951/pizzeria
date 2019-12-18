@@ -23,10 +23,10 @@ namespace Pizzeria.Controllers
 
 
         /// <summary>
-        /// Metoda zwraca listę promocji promocji
+        /// Metoda zwraca listę promocji
         /// </summary>
         /// <returns>
-        /// Lista obiektów reprezentująca promocje
+        /// Lista obiektów reprezentujących promocje
         /// </returns>
         [HttpGet]
         public IActionResult GetSales()

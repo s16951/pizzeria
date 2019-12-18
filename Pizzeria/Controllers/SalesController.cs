@@ -12,13 +12,22 @@ namespace Pizzeria.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class SalesController : ControllerBase
-    {
+    {//OpenAPI - paczka
         private readonly s16951Context _context;
         public SalesController(s16951Context context)
         {
             _context = context;
         }
 
+
+
+
+        /// <summary>
+        /// Metoda zwraca listę promocji promocji
+        /// </summary>
+        /// <returns>
+        /// Lista obiektów reprezentująca promocje
+        /// </returns>
         [HttpGet]
         public IActionResult GetSales()
         {
